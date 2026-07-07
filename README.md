@@ -8,4 +8,4 @@ Bu projede giriş gerilimini düşürerek çıkışa aktarmak amaçlanmıştır.
 ![LTspice Simülasyonu](Screenshot%202026-07-05%20162005.png)
 
 ## PCB İlk Bakış
-![LTspice Simülasyonu](Screenshot 2026-07-07 082113.png)
+![PCB](Screenshot 2026-07-07 082113.png)
