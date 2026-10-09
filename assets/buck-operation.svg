@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 696" width="1000" height="696" role="img" aria-labelledby="t d">
+<title id="t">Buck dönüştürücü çalışma prensibi</title>
+<desc id="d">Anahtar iletimdeyken akım Vin üzerinden bobine, anahtar açıkken D1 üzerinden dolaşarak yüke akar.</desc>
+<defs>
+
+</defs>
+<rect x="0.5" y="0.5" width="999" height="695" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="48" y="46" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#1f2328">Buck dönüştürücü çalışma prensibi</text>
+<text x="48" y="68" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#4f5963">Örnek: 24 V → 12 V · 1.5 A yük · L1 47 µH · 150 kHz (ideal, kayıpsız)</text>
+<rect x="865" y="35" width="10" height="10" rx="2" fill="#953800"/><text x="881" y="44" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4f5963">ON</text>
+<rect x="905" y="35" width="10" height="10" rx="2" fill="#6639ba"/><text x="921" y="44" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4f5963">OFF</text>
+<line x1="48" y1="82" x2="952" y2="82" stroke="#d0d7de"/>
+<g stroke="#8c959f" stroke-width="2" fill="none" stroke-linecap="round">
+  <path d="M90,150 H150 M230,150 H350 M430,150 H600"/>
+  <path d="M90,150 V310 H600 V150"/>
+  <path d="M310,150 V196 M310,264 V310"/>
+  <path d="M500,150 V210 M500,250 V310"/>
+  <path d="M600,210 V250"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="1;0;1;0" keyTimes="0;0.25;0.5;0.75" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/><path d="M90,310 V150 H600 V310 H90" fill="none" stroke="#953800" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="8 6"><animate attributeName="stroke-dashoffset" from="14" to="0" dur="0.5s" repeatCount="indefinite"/></path></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;1" keyTimes="0;0.25;0.5;0.75" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/><path d="M310,310 V150 H600 V310 H310" fill="none" stroke="#6639ba" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="8 6"><animate attributeName="stroke-dashoffset" from="14" to="0" dur="0.5s" repeatCount="indefinite"/></path></g>
+<g>
+  <rect x="150" y="126" width="80" height="48" rx="7" fill="#ffffff" stroke="#8c959f" stroke-width="1.5"/>
+  <rect x="150" y="126" width="80" height="48" rx="7" fill="#953800" fill-opacity="0.14" stroke="#953800" stroke-width="2.2" opacity="0"><animate attributeName="opacity" values="1;0;1;0" keyTimes="0;0.25;0.5;0.75" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/></rect>
+  <text x="190" y="148" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700" fill="#1f2328">S</text>
+  <text x="190" y="164" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#4f5963">LM2596</text></g>
+<g>
+  <rect x="350" y="126" width="80" height="48" rx="7" fill="#ffffff" stroke="#8c959f" stroke-width="1.5"/>
+  <rect x="350" y="126" width="80" height="48" rx="7" fill="#0550ae" fill-opacity="0.14" stroke="#0550ae" stroke-width="2.2" opacity="0"></rect>
+  <text x="390" y="148" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700" fill="#1f2328">L1</text>
+  <text x="390" y="164" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#4f5963">47 µH</text></g>
+<g>
+  <rect x="282" y="196" width="56" height="68" rx="7" fill="#ffffff" stroke="#8c959f" stroke-width="1.5"/>
+  <rect x="282" y="196" width="56" height="68" rx="7" fill="#6639ba" fill-opacity="0.14" stroke="#6639ba" stroke-width="2.2" opacity="0"><animate attributeName="opacity" values="0;1;0;1" keyTimes="0;0.25;0.5;0.75" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/></rect>
+  <text x="310" y="228" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700" fill="#1f2328">D1</text>
+  <text x="310" y="244" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#4f5963">SS36</text></g>
+<g>
+  <rect x="472" y="210" width="56" height="40" rx="7" fill="#ffffff" stroke="#8c959f" stroke-width="1.5"/>
+  <rect x="472" y="210" width="56" height="40" rx="7" fill="#8c959f" fill-opacity="0.14" stroke="#8c959f" stroke-width="2.2" opacity="0"></rect>
+  <text x="500" y="228" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700" fill="#1f2328">C</text>
+  <text x="500" y="244" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#4f5963">470µF</text></g>
+<g>
+  <rect x="572" y="210" width="56" height="40" rx="7" fill="#ffffff" stroke="#8c959f" stroke-width="1.5"/>
+  <rect x="572" y="210" width="56" height="40" rx="7" fill="#8c959f" fill-opacity="0.14" stroke="#8c959f" stroke-width="2.2" opacity="0"></rect>
+  <text x="600" y="228" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700" fill="#1f2328">Yük</text>
+  <text x="600" y="244" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#4f5963">1.5 A</text></g>
+<rect x="64" y="206" width="52" height="48" rx="7" fill="#ffffff" stroke="#8c959f" stroke-width="1.5"/>
+<text x="90" y="228" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700" fill="#1f2328">V_IN</text>
+<text x="90" y="244" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#4f5963">24 V</text>
+<circle cx="310" cy="150" r="4.5" fill="#953800"/><circle cx="500" cy="150" r="4.5" fill="#953800"/>
+<text x="310" y="134" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#953800">SW</text>
+<text x="500" y="134" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#953800">V_OUT</text>
+<text x="345" y="326" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#6e7781">GND</text>
+<g opacity="0"><animate attributeName="opacity" values="1;0;1;0" keyTimes="0;0.25;0.5;0.75" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/>
+  <text x="48" y="360" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#953800">S iletimde (ON)</text>
+  <text x="48" y="382" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#4f5963">V_IN → S → L1 → yük. Bobin akımı artar.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;1" keyTimes="0;0.25;0.5;0.75" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/>
+  <text x="48" y="360" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#6639ba">S açık (OFF)</text>
+  <text x="48" y="382" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#4f5963">D1 iletir; bobin akımı D1 üzerinden dolaşır ve azalır.</text></g>
+<g>
+  <rect x="640" y="112" width="312" height="192" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="660" y="138" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#1f2328">Hesap (ideal)</text>
+  <text x="660" y="166" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#4f5963">Duty D = V_OUT / V_IN</text><text x="940" y="166" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="600" fill="#1f2328">0.50</text>
+  <text x="660" y="192" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#4f5963">Periyot T = 1 / f_sw</text><text x="940" y="192" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="600" fill="#1f2328">6.67 µs</text>
+  <text x="660" y="218" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#4f5963">ON süresi t_on = D · T</text><text x="940" y="218" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="600" fill="#1f2328">3.33 µs</text>
+  <text x="660" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#4f5963">ΔI_L = (V_IN − V_OUT)·t_on / L</text><text x="940" y="244" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="600" fill="#1f2328">0.85 A</text>
+  <text x="660" y="270" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#4f5963">I_L,min / I_L,max</text><text x="940" y="270" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="600" fill="#1f2328">1.07 / 1.93 A</text>
+  <text x="660" y="296" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#4f5963">L1 doyma akımı (ISAT)</text><text x="940" y="296" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="600" fill="#1f2328">4.5 A</text>
+</g>
+<line x1="48" y1="410" x2="952" y2="410" stroke="#d0d7de"/>
+<text x="48" y="436" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#1f2328">Dalga biçimleri</text>
+<text x="120" y="456" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#4f5963">24 V</text>
+<text x="120" y="498" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#4f5963">0 V</text>
+<text x="120" y="560" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#4f5963">1.93 A</text>
+<text x="120" y="632" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#4f5963">1.07 A</text>
+<text x="340" y="466" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#953800">V_SW</text>
+<text x="130" y="548" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#0550ae">I_L (bobin akımı)</text>
+<rect x="130" y="450" width="200" height="184" fill="#953800" fill-opacity="0.05"/>
+<rect x="130" y="450" width="200" height="184" fill="#953800" fill-opacity="0.12" opacity="0"><animate attributeName="opacity" values="1;0;0;0" keyTimes="0;0.25;0.5;0.75" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="230" y="654" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#953800">ON</text>
+<rect x="330" y="450" width="200" height="184" fill="#6639ba" fill-opacity="0.05"/>
+<rect x="330" y="450" width="200" height="184" fill="#6639ba" fill-opacity="0.12" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.25;0.5;0.75" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="430" y="654" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#6639ba">OFF</text>
+<rect x="530" y="450" width="200" height="184" fill="#953800" fill-opacity="0.05"/>
+<rect x="530" y="450" width="200" height="184" fill="#953800" fill-opacity="0.12" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.25;0.5;0.75" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="630" y="654" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#953800">ON</text>
+<rect x="730" y="450" width="200" height="184" fill="#6639ba" fill-opacity="0.05"/>
+<rect x="730" y="450" width="200" height="184" fill="#6639ba" fill-opacity="0.12" opacity="0"><animate attributeName="opacity" values="0;0;0;1" keyTimes="0;0.25;0.5;0.75" dur="4.8s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="830" y="654" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#6639ba">OFF</text>
+<line x1="130" y1="592" x2="930" y2="592" stroke="#8c959f" stroke-dasharray="4 5"/>
+<text x="938" y="596" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" fill="#6e7781">1.5 A</text>
+<path d="M130,494 L130,452 L330,452 L330,494 L530,494 L530,452 L730,452 L730,494 L930,494" fill="none" stroke="#953800" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M130,628 L330,556 L530,628 L730,556 L930,628" fill="none" stroke="#0550ae" stroke-width="2.4" stroke-linejoin="round"/>
+<g><animateTransform attributeName="transform" type="translate" from="0 0" to="800 0" dur="4.8s" repeatCount="indefinite"/>
+  <line x1="130" y1="446" x2="130" y2="634" stroke="#1f2328" stroke-width="1.5"/><circle cx="130" cy="446" r="3.5" fill="#1f2328"/></g>
+<text x="500" y="678" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6e7781">Yavaşlatılmış gösterim: gerçek periyot 6.67 µs. Diyot ve anahtar düşümleri ihmal edilmiştir.</text>
+</svg>

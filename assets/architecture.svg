@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 540" width="1280" height="540" role="img" aria-labelledby="t d">
+<title id="t">Sistem mimarisi</title>
+<desc id="d">Giriş filtresi, LM2596 anahtarlama katı, LC çıkış filtresi ve geri besleme çevrimi</desc>
+<defs>
+<path id="pMain" d="M115,174 H1165" fill="none"/>
+<path id="pD" d="M640,292 V174" fill="none"/>
+<path id="pFb" d="M850,174 V292 M885,378 V422 H535 V214" fill="none"/>
+<path id="pFb1" d="M850,174 V292" fill="none"/>
+<path id="pFb2" d="M885,378 V422 H535 V214" fill="none"/>
+</defs>
+<rect x="0.5" y="0.5" width="1279" height="539" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="48" y="46" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#1f2328">Sistem mimarisi</text>
+<text x="48" y="68" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#4f5963">Güç yolu, serbest dolaşım diyodu ve çıkış gerilimini ayarlayan geri besleme</text>
+<rect x="944" y="35" width="10" height="10" rx="2" fill="#953800"/><text x="960" y="44" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4f5963">Güç</text>
+<rect x="991" y="35" width="10" height="10" rx="2" fill="#116329"/><text x="1007" y="44" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4f5963">Geri besleme</text>
+<rect x="1101" y="35" width="10" height="10" rx="2" fill="#6639ba"/><text x="1117" y="44" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4f5963">Serbest dolaşım</text>
+<line x1="48" y1="82" x2="1232" y2="82" stroke="#d0d7de"/>
+<text x="1232" y="118" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1.2" fill="#6e7781">GÜÇ YOLU</text>
+<text x="48" y="276" text-anchor="start" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1.2" fill="#6e7781">SERBEST DOLAŞIM VE GERİ BESLEME</text>
+<path d="M115,174 H1165" fill="none" stroke="#953800" stroke-opacity="0.55" stroke-width="2.2"/>
+<path d="M640,292 V174" fill="none" stroke="#6639ba" stroke-opacity="0.55" stroke-width="1.6"/>
+<path d="M850,174 V292" fill="none" stroke="#116329" stroke-opacity="0.55" stroke-width="1.6"/>
+<path d="M885,378 V422 H535 V214" fill="none" stroke="#116329" stroke-opacity="0.55" stroke-width="1.6"/>
+<circle cx="640" cy="174" r="4" fill="#953800"/><circle cx="850" cy="174" r="4" fill="#953800"/>
+<circle r="3.4" fill="#953800"><animateMotion dur="5s" begin="0.00s" repeatCount="indefinite"><mpath href="#pMain"/></animateMotion></circle><circle r="3.4" fill="#953800"><animateMotion dur="5s" begin="1.25s" repeatCount="indefinite"><mpath href="#pMain"/></animateMotion></circle><circle r="3.4" fill="#953800"><animateMotion dur="5s" begin="2.50s" repeatCount="indefinite"><mpath href="#pMain"/></animateMotion></circle><circle r="3.4" fill="#953800"><animateMotion dur="5s" begin="3.75s" repeatCount="indefinite"><mpath href="#pMain"/></animateMotion></circle>
+<circle r="3" fill="#6639ba"><animateMotion dur="1.2s" begin="0.00s" repeatCount="indefinite"><mpath href="#pD"/></animateMotion></circle><circle r="3" fill="#6639ba"><animateMotion dur="1.2s" begin="0.60s" repeatCount="indefinite"><mpath href="#pD"/></animateMotion></circle>
+<circle r="3" fill="#116329"><animateMotion dur="1.4s" begin="0.00s" repeatCount="indefinite"><mpath href="#pFb1"/></animateMotion></circle><circle r="3" fill="#116329"><animateMotion dur="1.4s" begin="0.70s" repeatCount="indefinite"><mpath href="#pFb1"/></animateMotion></circle>
+<circle r="3" fill="#116329"><animateMotion dur="2.8s" begin="0.00s" repeatCount="indefinite"><mpath href="#pFb2"/></animateMotion></circle><circle r="3" fill="#116329"><animateMotion dur="2.8s" begin="1.40s" repeatCount="indefinite"><mpath href="#pFb2"/></animateMotion></circle>
+<g>
+  <rect x="30" y="134" width="170" height="80" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="46" y="150" width="8" height="8" rx="2" fill="#953800"/>
+  <text x="60" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1f2328">J1 · Vin</text>
+  <text x="46" y="180" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#4f5963">vida klemens</text>
+  <text x="46" y="198" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#6e7781">4.5 – 40 V</text>
+  </g>
+<g>
+  <rect x="240" y="134" width="170" height="80" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="256" y="150" width="8" height="8" rx="2" fill="#953800"/>
+  <text x="270" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1f2328">Giriş filtresi</text>
+  <text x="256" y="180" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#4f5963">C1 470 µF · 50 V</text>
+  <text x="256" y="198" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#6e7781">C2 100 nF · 50 V</text>
+  </g>
+<g>
+  <rect x="450" y="134" width="170" height="80" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="466" y="150" width="8" height="8" rx="2" fill="#953800"/>
+  <text x="480" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1f2328">LM2596S-ADJ</text>
+  <text x="466" y="180" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#4f5963">TO-263-5 · 150 kHz</text>
+  <text x="466" y="198" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#6e7781">3 A · iç anahtar</text>
+  </g>
+<g>
+  <rect x="660" y="134" width="170" height="80" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="676" y="150" width="8" height="8" rx="2" fill="#953800"/>
+  <text x="690" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1f2328">Güç bobini</text>
+  <text x="676" y="180" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#4f5963">L1 47 µH</text>
+  <text x="676" y="198" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#6e7781">ISAT 4.5 A</text>
+  </g>
+<g>
+  <rect x="870" y="134" width="170" height="80" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="886" y="150" width="8" height="8" rx="2" fill="#953800"/>
+  <text x="900" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1f2328">Çıkış filtresi</text>
+  <text x="886" y="180" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#4f5963">C4 470 µF · 50 V</text>
+  <text x="886" y="198" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#6e7781">C3 100 nF · 50 V</text>
+  </g>
+<g>
+  <rect x="1080" y="134" width="170" height="80" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="1096" y="150" width="8" height="8" rx="2" fill="#953800"/>
+  <text x="1110" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1f2328">J2 · Vout</text>
+  <text x="1096" y="180" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#4f5963">vida klemens</text>
+  <text x="1096" y="198" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#6e7781">1.2 – 13.5 V</text>
+  </g>
+<path d="M206,174 L234,174" stroke="#953800" stroke-width="1.8" fill="none"/><path d="M233,174 L226.7,177.0 L226.7,171.0 Z" fill="#953800"/>
+<path d="M416,174 L444,174" stroke="#953800" stroke-width="1.8" fill="none"/><path d="M443,174 L436.7,177.0 L436.7,171.0 Z" fill="#953800"/>
+<path d="M626,174 L654,174" stroke="#953800" stroke-width="1.8" fill="none"/><path d="M653,174 L646.7,177.0 L646.7,171.0 Z" fill="#953800"/>
+<path d="M836,174 L864,174" stroke="#953800" stroke-width="1.8" fill="none"/><path d="M863,174 L856.7,177.0 L856.7,171.0 Z" fill="#953800"/>
+<path d="M1046,174 L1074,174" stroke="#953800" stroke-width="1.8" fill="none"/><path d="M1073,174 L1066.7,177.0 L1066.7,171.0 Z" fill="#953800"/>
+<g>
+  <rect x="555" y="292" width="170" height="86" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="571" y="311" width="8" height="8" rx="2" fill="#6639ba"/>
+  <text x="585" y="319" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1f2328">D1 · SS36</text>
+  <text x="571" y="341" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#4f5963">3 A · 60 V Schottky</text>
+  <text x="571" y="359" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#6e7781">switch kapalıyken iletir</text>
+  </g>
+<g stroke="#8c959f" stroke-width="1.6" stroke-linecap="round"><line x1="640" y1="378" x2="640" y2="396"/><line x1="628" y1="396" x2="652" y2="396"/><line x1="632" y1="402" x2="648" y2="402"/><line x1="636" y1="408" x2="644" y2="408"/></g>
+<g>
+  <rect x="815" y="292" width="210" height="86" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="831" y="311" width="8" height="8" rx="2" fill="#116329"/>
+  <text x="845" y="319" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1f2328">Geri besleme</text>
+  <text x="831" y="341" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#4f5963">R1 1 kΩ (FB-GND)</text>
+  <text x="831" y="359" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#6e7781">RV1 10 kΩ (OUT-FB)</text>
+  </g>
+<text x="543" y="234" text-anchor="start" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#116329">FB · 1.23 V</text>
+<text x="640" y="126" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#953800">SW</text>
+<text x="850" y="126" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#953800">V_OUT</text>
+<g>
+  <rect x="48" y="442" width="1184" height="74" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="72" y="473" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1f2328">Çıkış gerilimi</text>
+  <text x="72" y="498" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#4f5963">V_OUT = 1.23 V × (1 + RV1 / R1)</text>
+  <text x="520" y="473" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1f2328">Ayar aralığı</text>
+  <text x="520" y="498" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#4f5963">RV1 = 0 → 1.23 V   ·   RV1 = 10 kΩ → 13.5 V</text>
+</g>
+</svg>
